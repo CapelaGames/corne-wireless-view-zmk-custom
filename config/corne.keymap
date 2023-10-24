@@ -70,10 +70,10 @@
 
         Symbols {
             bindings = <
-&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH              &kp DOLLAR             &kp PERCENT          &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
-&trans     &kp HOME         &kp PG_UP      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES    &kp LEFT   &kp DOWN       &kp UP        &kp RIGHT             &trans                 &trans
-&trans     &kp END          &kp PAGE_DOWN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans               &trans     &trans         &trans        &trans                &trans                 &mo 5
-                                           &trans                &trans                 &trans               &trans     &trans         &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH              &kp DOLLAR             &kp PERCENT          &kp CARET       &kp AMPERSAND    &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
+&trans  &kp HOME         &kp PG_UP      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES    &kp LEFT        &kp DOWN         &kp UP         &kp RIGHT             &trans                 &trans
+&trans  &kp END          &kp PAGE_DOWN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE            &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN      &trans                 &mo 5
+                                        &trans                &trans                 &trans               &trans          &trans           &trans
             >;
 
             label = "Symbols";
