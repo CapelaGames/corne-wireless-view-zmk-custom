@@ -59,10 +59,10 @@
 
         Keypad {
             bindings = <
-&trans  &kp F7  &kp F7  &kp F8  &kp F9  &kp F12    &kp MINUS  &kp N7  &kp N8  &kp N9  &kp SLASH  &trans
-&trans  &kp F4  &kp F4  &kp F5  &kp F6  &kp F11    &kp PLUS   &kp N4  &kp N5  &kp N6  &kp STAR   &kp DELETE
-&trans  &kp F1  &kp F1  &kp F2  &kp F3  &kp F10    &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL  &kp BACKSLASH
-                        &trans  &trans  &trans     &trans     &trans  &trans
+&trans  &kp MINUS  &kp N7  &kp N8  &kp N9  &kp SLASH       &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &trans
+&trans  &kp PLUS   &kp N4  &kp N5  &kp N6  &kp ASTERISK    &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &kp DELETE
+&trans  &kp N0     &kp N1  &kp N2  &kp N3  &kp EQUAL       &kp F11  &kp F12  &kp F13  &kp F14  &kp F15  &kp BACKSLASH
+                           &trans  &trans  &trans          &trans   &trans   &trans
             >;
 
             label = "Keypad";
